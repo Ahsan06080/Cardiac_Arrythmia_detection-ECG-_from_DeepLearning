@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "py-bwr"
+version = "0.1.0"
+description = "Calculate baseline of signal using wavelets."
+authors = ["bold <bold@cryptoguru.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "^1.16"
+PyWavelets = "^1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
